@@ -23,7 +23,7 @@ $(call inherit-product, device/zuk/z2_plus/device.mk)
 # Inherit some common DU stuff.
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
 
-PRODUCT_NAME := du_z2_plus
+PRODUCT_NAME := lineage_z2_plus
 PRODUCT_DEVICE := z2_plus
 PRODUCT_MANUFACTURER := ZUK
 PRODUCT_BRAND := ZUK
