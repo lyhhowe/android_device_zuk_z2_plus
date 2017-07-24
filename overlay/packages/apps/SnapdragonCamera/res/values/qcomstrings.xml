@@ -21,6 +21,9 @@
 
 <resources>
 
+    <!-- Enable support for camera api v2 -->
+    <bool name="support_camera_api_v2">true</bool>
+
     <!-- Settings screen, setting title text for ZSL-->
     <string name="pref_camera_zsl_default" translatable="false">off</string>
 
