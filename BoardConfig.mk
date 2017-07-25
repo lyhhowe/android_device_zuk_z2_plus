@@ -33,10 +33,6 @@ BOARD_VENDOR := zuk
 
 # Use Snapdragon LLVM, if available
 TARGET_USE_SDCLANG := true
-LOCAL_SDCLANG := true
-SDCLANG := true
-SDCLANG_PATH := prebuilts/clang/linux-x86/host/sdclang-3.8/bin
-SDCLANG_LTO_DEFS := device/qcom/common/sdllvm-lto-defs.mk
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := msm8996
@@ -78,7 +74,7 @@ TARGET_KERNEL_APPEND_DTB := true
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-TARGET_KERNEL_CONFIG := n7x-caf_z2_plus_defconfig
+TARGET_KERNEL_CONFIG := lineageos_z2_plus_defconfig
 TARGET_KERNEL_SOURCE := kernel/zuk/msm8996
 
 # QCOM hardware
